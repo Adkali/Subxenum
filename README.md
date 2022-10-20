@@ -52,3 +52,6 @@ If you want to loads som Subdomains-List, you get download some of from github, 
 With time, i hope to add the ability to perform dir search inside each subdomain, get information about running server, using Nmap to look
 for open ports or vulnerability the dubdomain might have, just to help penetration testers while searching for vulnerabilities.
 please, use this tool for education purpose only! if you seem to get into a problem while running this tool, see you are using the 'http://' protocol, and if from some reason it still doesn't work, please let me know.
+
+# Updates
+Fix bug outputs while using 'c' flag & other functionalities.<br> Soon i wil add the option of using brute-force for looking for hidden directories inside of the script on subdomains you found using the code.
