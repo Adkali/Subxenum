@@ -54,4 +54,5 @@ for open ports or vulnerability the dubdomain might have, just to help penetrati
 please, use this tool for education purpose only! if you seem to get into a problem while running this tool, see you are using the 'http://' protocol, and if from some reason it still doesn't work, please let me know.
 
 # Updates
-Fix bug outputs while using 'c' flag & other functionalities.<br> Soon i wil add the option of using brute-force for looking for hidden directories inside of the script on subdomains you found using the code.
+1. Fix bug outputs while using 'c' flag & other functionalities.<br> Soon i wil add the option of using brute-force for looking for hidden directories inside of the script on subdomains you found using the code.
+2. 14/2 - if "whois" results in nothing, use "pip install python-whois".
