@@ -11,16 +11,14 @@ Subxenum is a Python tool designed for subdomain enumeration that uses advanced 
 • Subxenum supports various techniques including whois, crt, and user-defined wordlists to generate comprehensive results.<br>
 <br>
 
-![צילום מסך 2022-07-31 174131](https://user-images.githubusercontent.com/90532971/182031590-c70133d9-99a7-4cc1-b639-cac9dccaa32f.png)
-
-# Install
+# Install & Usage
 <pre>
 1 git clone https://github.com/Adkali/Subxenum.git
 2 cd /Subxenum 
 3 pip3 install -r requirements.txt
 4 python3 [script.py] -domain [ domain http:// ] -word [ wordlist.txt ] 
 </pre>
-# Usage
+# Help
 <pre>
 optional arguments:
   -h, --help         show this help message and exit
