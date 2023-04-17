@@ -7,15 +7,15 @@ import json
 import os
 import sublist3r
 
-# Subdomain enumerate tool, V1.2 *
+# Subdomain enumerate tool, V1.0 *
 # Made by Adkali with love *
 # A tool for Penetration tester during there engagement.
-# An OSINT tool with the use of enumerate site, using grabbing and parsing.
+# An OSINT tool with the use of enumerate site, using scraping and parsing.
 # Use it for education purpose only.
 # --------------------------------------------------------------
 
 # MIT License
-# Copyright (c) 2023 Adkali
+# Copyright (c) 2022 Adkali
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -130,8 +130,8 @@ try:
             time.sleep(1)
 
         if crtsh == "crt":
-            print(f"[+] scrap subdomains from crt using json with splits.\n{Red}")
-            print("Note:{Normal}'crtlist.txt' file will be add to current directory.")
+            print(f"[+] Grabs subdomains from crt using json with splits.\n")
+            print(f"{Red}Note:{Normal}'crt_list.txt' file will be add to current directory.")
             print(f"{Red}---{Normal}" * 9)
             url = f"https://crt.sh/?q={d[1]}&output=json"
             r = requests.get(url)
