@@ -1,4 +1,4 @@
-beautifulsoup4==4.11.1
 python_whois==0.8.0
 requests==2.25.1
-whois==0.9.16
+sublist3r==1.0
+whois==0.9.27
