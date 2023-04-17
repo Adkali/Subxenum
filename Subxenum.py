@@ -10,7 +10,7 @@ import sublist3r
 # Subdomain enumerate tool, V1.2 *
 # Made by Adkali with love *
 # A tool for Penetration tester during there engagement.
-# An OSINT tool with the use of enumerate site, using scraping and parsing.
+# An OSINT tool with the use of enumerate site, using grabbing and parsing.
 # Use it for education purpose only.
 # --------------------------------------------------------------
 
