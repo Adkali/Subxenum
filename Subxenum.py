@@ -130,7 +130,7 @@ try:
             time.sleep(1)
 
         if crtsh == "crt":
-            print(f"[+] Grabs subdomains from crt using json with splits.\n")
+            print(f"[+] Grabs subdomains from crt using json with splits.")
             print(f"{Red}Note:{Normal}'crt_list.txt' file will be add to current directory.")
             print(f"{Red}---{Normal}" * 9)
             url = f"https://crt.sh/?q={d[1]}&output=json"
