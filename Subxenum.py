@@ -186,7 +186,7 @@ except KeyboardInterrupt:
     print("User stopped process, abort....")
     exit(0)
 except requests.exceptions.ConnectionError:
-    print("Please, check the url again please.\nMake sure you wrote it has 'http://'.")
+    print("Please, check the url again please.\nMake sure you wrote it as 'http://'.")
     exit(0)
 
 # -------------------- CONTINUE THE CODE --------------------
